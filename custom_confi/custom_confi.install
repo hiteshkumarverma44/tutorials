@@ -1,0 +1,42 @@
+<?php
+
+
+    function custom_confi_schema() {
+        $schema['custom_confi'] = [
+          'fields' => [
+            'custom_confi_id' => [
+              'type' => 'serial',
+              'not null' => TRUE,
+            ],
+            'first_name' => [
+              'type' => 'varchar',
+              'not null' => TRUE,
+              'length' => 50,
+            ],
+            'last_name' => [
+              'type' => 'varchar',
+              'not null' => TRUE,
+              'length' => 50,
+            ],
+            'email' => [
+              'type' => 'varchar',
+              'not null' => TRUE,
+              'length' => 50,
+            ],
+            'contact_number' => [
+              'type' => 'varchar',
+              'length' => 60,
+              'not null' => FALSE,
+            ],
+            'terms_condition' => [
+              'type' => 'varchar',
+              'not null' => TRUE,
+              'length' => 10,
+            ],
+          ],
+          'primary key'=>['custom_confi_id'],
+        ];
+        return $schema;
+      }
+
+?>

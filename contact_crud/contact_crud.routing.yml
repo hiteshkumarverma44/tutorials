@@ -1,0 +1,30 @@
+contact_crud.contactmanage:
+  path: "/admin/structure/contact_crud/contact/manageContact"
+  defaults:
+    _title: "Contact form"
+    _controller: '\Drupal\contact_crud\Controller\ContactController::manageContact'
+  requirements:
+    _permission: "access content"
+
+contact_crud.delete_contact_ajax:
+  path: "/ajax/contact_crud/contact/delete/{cid}"
+  defaults:
+    _controller: '\Drupal\contact_crud\Controller\ContactController::deleteContactAjax'
+    _title: "access Contact"
+  requirements:
+    _permission: "access content"
+
+contact_crud.edit_contact_ajax:
+  path: "/ajax/contact_crud/contact/edit/{cid}"
+  defaults:
+    _controller: '\Drupal\contact_crud\Controller\ContactController::editContactAjax'
+    _title: "Edit Contact"
+  requirements:
+    _permission: "access content"
+# contact_crud.pagination_contact_ajax:
+#   path: '/ajax/contact_crud/table/page/{no}'
+#   defaults:
+#     _controller: '\Drupal\contact_crud\Controller\ContactController::tablePaginationAjax'
+#     _title: 'Table Pagination Contact'
+#   requirements:
+#     _permission: 'access content'

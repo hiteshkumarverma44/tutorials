@@ -1,0 +1,6 @@
+basic_page:
+  css:
+    theme:
+      css/basic_page.css: {}
+  js:
+    js/basic_page.js: {}

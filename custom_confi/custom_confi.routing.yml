@@ -1,0 +1,7 @@
+custom_confi.settings:
+  path: '/custom_confi'
+  defaults:
+    _form: '\Drupal\custom_confi\Form\Custom_Confi'
+    _title: 'Custom Configurations'
+  requirements:
+    _permission: 'form permission'

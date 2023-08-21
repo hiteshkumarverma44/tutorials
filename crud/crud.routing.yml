@@ -1,0 +1,36 @@
+crud.mydata_form:
+  path: '/addeditform/{id}'
+  defaults:
+    _form: '\Drupal\crud\Form\addeditform'
+    _title: 'add edit form'
+  requirements:
+    _access: 'TRUE'
+
+
+
+crud.display_controller:
+  path: '/display'
+  defaults:
+    _controller: '\Drupal\crud\Controller\displayController::display'
+    _title: 'display'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+
+
+crud.crud_delete:
+  path: '/display/{id}'
+  defaults:
+    _controller: '\Drupal\crud\Controller\displayController::cruddelete'
+    _title: 'delete entry'
+  requirements:
+    _permission: 'access content'
+  # no_cache: TRUE
+
+crud.crud_test:
+  path: '/display/test'
+  defaults:
+    _controller: '\Drupal\crud\Controller\displayController::crud_test'
+  requirements:
+    _permission: 'access content'

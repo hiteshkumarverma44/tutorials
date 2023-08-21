@@ -1,0 +1,7 @@
+ajaxform_js_css:
+  version: 1.0
+  css:
+    theme:
+      css/ajaxform.css: {}
+  js:
+    js/ajaxform.js: {}

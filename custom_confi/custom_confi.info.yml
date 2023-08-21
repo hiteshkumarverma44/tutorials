@@ -1,0 +1,6 @@
+name: Custom Configuration Form
+description: This is an custom form.
+core_version_requirement: ^8 || ^9
+type: module
+package: Custom Modules
+

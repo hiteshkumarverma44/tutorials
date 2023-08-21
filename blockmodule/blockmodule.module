@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+
+ function blockmodule_theme($existing, $type, $theme, $path){
+    return [
+        'my_custom_block' => [
+            'variables' => ['title' => NULL],
+        ]
+        ];
+ }
+
+ ?>

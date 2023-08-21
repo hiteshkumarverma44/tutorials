@@ -1,0 +1,48 @@
+<?php
+function crud_schema(): array
+{
+  $schema['crud_code'] = [
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+      ],
+      'name' => [
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'length' => 255,
+      ],
+      'number' => [
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'length' => 255,
+      ],
+      'email' => [
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'length' => 255,
+      ],
+      'gender' => [
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => true,
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+  return $schema;
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+

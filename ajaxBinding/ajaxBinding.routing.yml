@@ -1,0 +1,15 @@
+ajaxBinding.ajax_form:
+  path: '/ajaxForm'
+  defaults:
+    _title: 'This is ajaxForm Routing'
+    _form: '\Drupal\ajaxBinding\Form\AjaxBind'
+  requirements:
+    _permission: 'access content'
+
+# MY_MODULE.ajax_form:
+#   path: '/ajax-form'
+#   defaults:
+#     _form: '\Drupal\MY_MODULE\Form\AjaxForm'
+#     _title: 'Ajax form'
+#   requirements:
+#     _permission: 'access content'

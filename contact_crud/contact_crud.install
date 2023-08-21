@@ -1,0 +1,42 @@
+<?php
+use Drupal\Core\Database\Database;
+
+/**
+ * Implements hook_schema().
+ */
+function contact_crud_schema(){
+    $schema['contactcrud'] = array(
+        'description' => 'The table for storing the contact data.',
+        'fields' => array(
+            'id' => array(
+                'description' => 'The primary identifier for user',
+                'type' => 'serial',
+                'not null' => TRUE,
+                'unsigned' => TRUE,
+            ),
+            'fullname' => array(
+                'description' => 'Full Name',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+           'email' => array(
+                'description' => 'Email of user.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+            'phone' => array(
+                'description' => 'phone no of user',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+
+            ),
+        ),
+        'primary key' => array('id'),
+    );
+    return $schema;
+}

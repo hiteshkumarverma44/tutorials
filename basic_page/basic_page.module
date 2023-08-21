@@ -1,0 +1,14 @@
+<?php
+
+use \Drupal\views\ViewExecutable;
+
+/**
+ * Implements hook_views_pre_render().
+ */
+
+function basic_page_views_pre_render(ViewExecutable $view){
+    if($view->id() == "content_listing_view" || $view->getDisplay()->display['id'] == 'page_1');
+  $view->element['attached']['library']== 'basic_page/basic_page.js';
+  $view->setTitle("our custom title");
+    exit;
+}

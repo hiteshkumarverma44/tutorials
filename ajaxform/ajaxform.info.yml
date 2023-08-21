@@ -1,0 +1,6 @@
+name: ajaxform
+type: module
+core_version_requirement: ^9 || ^10
+description: this is ajax form with table shown
+package: custom
+version: '1.0'

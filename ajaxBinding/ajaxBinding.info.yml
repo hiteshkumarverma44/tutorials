@@ -1,0 +1,5 @@
+name: ajax form
+description: This is an ajax dropdown menu form
+core_version_requirement: ^9 || ^10
+type: module
+package: Custom

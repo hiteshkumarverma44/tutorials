@@ -1,0 +1,5 @@
+name: basic_page
+type: module
+description: this is basic page module
+core_version_requirement: ^8 || ^9
+package: Custom Modules

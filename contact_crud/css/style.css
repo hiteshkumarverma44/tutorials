@@ -1,0 +1,77 @@
+.pagination {
+  display: inline-block;
+}
+
+/* .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+} */
+
+.pagination a.active {
+  background-color: #1e5c90;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #0071b8;}
+
+.contact-form {
+  border: solid;
+  display: flex;
+  padding: 20px;
+}
+
+/* .contact-crud-table-form {
+  border: solid;
+  padding: 20px;
+} */
+
+.result_message {
+  border: solid;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.page-content{
+  border: solid;
+  padding: 20px;
+}
+
+
+#div-addform{
+  display: flex;
+  /* border: 5px solid black; */
+  width: 100%;
+  padding: 10px;
+}
+
+.success{
+  color: green;
+  font-size: 10px;
+  display: block;
+}
+
+.form-class-fields{
+  width: 30%;
+  flex-basis: 10%;
+}
+
+.form-actions {
+
+  margin-top: 2.6rem !important;
+
+}
+
+.contact-crud-table-form table {
+  width: 100%;
+}
+
+/* ............... */
+.form-item {
+    width: 250px !important;
+}
+
+#edit-actions{
+  margin-left: 10px;
+}

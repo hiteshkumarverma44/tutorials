@@ -1,0 +1,49 @@
+ajaxform.form:
+  path: '/ajax/form'
+  defaults:
+    _title: 'contact us:'
+    _form: '\Drupal\ajaxform\Form\addform'
+  requirements:
+    _permission: 'access content'
+
+ajaxform.showform:
+  path: '/ajax/showform'
+  defaults:
+    _controller: '\Drupal\ajaxform\Controller\Displayform::showform'
+    _title: 'contact us list'
+  requirements:
+    _permission: 'access content'
+
+# ajaxform.displayoneform:
+#   path: '/ajax/displayone/form'
+#   defaults:
+#     _title: 'Contact form'
+#     _controller: '\Drupal\ajaxform\Controller\Displayone::manageContact'
+#   requirements:
+#     _permission: 'access content'
+
+# ajaxform.contactmanage:
+#   path: '/ajax/showform'
+#   defaults:
+#     _controller: '\Drupal\ajaxform\Controller\Displayform::manageContact'
+#     _title: 'form showing'
+#   requirements:
+#     _permission: 'access content'
+
+ajaxform.ajax_edit_form:
+  path: '/ajax/edit/{id}'
+  defaults:
+    _form: '\Drupal\ajaxform\Form\editajaxform'
+    _title: 'Edit form'
+  requirements:
+    _permission: 'access content'
+
+ajaxform.ajax_delete:
+  path: '/ajax/delete/{id}'
+  defaults:
+    _form: '\Drupal\ajaxform\Form\deleteajaxform'
+    _title: 'delete form'
+  requirements:
+    _permission: 'access content'
+
+
