@@ -1,0 +1,6 @@
+customblock-style:
+  css:
+    theme:
+      css/heroblock.css: {}
+  js:
+    js/heroblock.js: {}

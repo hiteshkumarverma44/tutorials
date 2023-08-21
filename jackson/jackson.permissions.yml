@@ -1,0 +1,4 @@
+administer jackson configuration:
+  title: 'Administer jackson configuration'
+  description: 'Optional description.'
+  restrict access: true

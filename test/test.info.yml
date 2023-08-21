@@ -1,0 +1,7 @@
+name: Test form
+description: This is an Test form
+core_version_requirement: ^8 || ^9 || ^10
+# core: 8.x
+type: module
+package: Custom
+version: 1.x

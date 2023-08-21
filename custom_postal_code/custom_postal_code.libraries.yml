@@ -1,0 +1,10 @@
+custom_postal_code-style:
+  css:
+    theme:
+      css/cpc.css: {}
+  js:
+    js/cpc.js: {}
+  
+  dependencies:
+    - core/jquery
+    

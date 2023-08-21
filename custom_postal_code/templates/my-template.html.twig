@@ -1,0 +1,28 @@
+<p>
+  <h3>
+    This is Static Postal Code Template
+  </h3>
+</p>
+
+{# <p>the postal codes are (postal 1, postal 2, postal 3, postal 4, postal 5) </p> #}
+{# <p> {{ postal_code }} </p> #}
+
+{% set static_postal_code = 'postal 1' %}
+{% if static_postal_code in postal_code %}
+  <p>
+    welcome to our page
+  </p>
+{% else %}
+  <p>
+    you are not on the right place
+  </p>
+{% endif %}
+
+{# {% for val in postal_code %}
+    {{ loop.index0 }}
+     {% if val == static_postal_code %}
+      <h1>welcome to our page</h1>
+    {% else %}
+    <h1>you are not on the right place</h1>
+   {% endif %}
+  {% endfor %} #}

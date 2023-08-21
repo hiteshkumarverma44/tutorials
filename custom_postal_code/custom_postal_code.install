@@ -1,0 +1,34 @@
+<?php
+function custom_postal_code_schema(): array
+{
+  $schema['custom_postal_code'] = [
+    'fields' => [
+      'sr_no' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+      ],
+      'postal_code' => [
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'length' => 255,
+      ],
+      'description' => [
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'length' => 255,
+      ],
+      'created_date' => [
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'length' => 255,
+      ],
+      'updated_date' => [
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => FALSE,
+      ],
+    ],
+    'primary key' => ['sr_no'],
+  ];
+  return $schema;
+}

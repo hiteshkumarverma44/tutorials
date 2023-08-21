@@ -1,0 +1,7 @@
+name: Custom Form
+description: This is a Custom Form
+core_version_requirement: ^9 || ^10
+type: module
+version: '1.0'
+dependencies:
+  - devel:devel

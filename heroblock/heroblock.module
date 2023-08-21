@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+
+ function heroblock_theme($existing, $type, $theme, $path){
+    return [
+        'heroblocktemplate' => [
+            'variables' => ['title' => NULL],
+        ]
+        ];
+ }
+
+ ?>

@@ -1,0 +1,11 @@
+custom_postal_code.add:
+  route_name: custom.custom_postal_code_add
+  title: 'Add Postal'
+  appears_on:
+    - custom.custom_postal_code_showdata
+
+custom_postal_code.importcsv:
+  route_name: custom.custom_postal_code_import
+  title: 'Import CSV'
+  appears_on:
+    - custom.custom_postal_code_showdata

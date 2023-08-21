@@ -1,0 +1,16 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+
+function custom_postal_code_theme($existing, $type, $theme, $path)
+{
+    return [
+        'my_template' => [
+            'variables' => ['postal_code'=> []],
+        ],
+        ];
+
+}
+
+?>

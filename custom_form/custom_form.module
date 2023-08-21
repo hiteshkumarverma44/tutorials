@@ -1,0 +1,77 @@
+<?php
+
+
+// require_once('devel.module');
+
+// use Drupal\contrib\devel;
+use Drupal\contrib\devel\dpm;
+use Drupal\devel\Plugin\Devel\Dumper\Kint;
+use Drupal\devel\ToolbarHandler;
+// use Drupal\devel;
+
+
+// define('DEVEL_ERROR_HANDLER_NONE', 0);
+// define('DEVEL_ERROR_HANDLER_STANDARD', 1);
+// define('DEVEL_ERROR_HANDLER_BACKTRACE_KINT', 2);
+// define('DEVEL_ERROR_HANDLER_BACKTRACE_DPM', 4);
+
+// function foo_form_alter(&$form, $form_state, $form_id) {
+//     if ($form_id == 'search_block_form') {
+//       sdpm($form);
+//     }
+//   }
+
+// function custom_form_views_post_render($view) {
+//     if ($view['menu_name'] == 'YOUR_MENU') {
+//       dpm($view);
+//     }
+//   }
+
+
+
+function custom_form_views_post_render($view){
+if($view->id() == 'test11'){
+    echo('<pre>');
+    // dpm($view);
+    // var_dump($view);
+    $table1 = $view->getBaseTables($view);
+    var_dump($table1);
+    echo('</pre>');
+
+// drupal_set_message(print_r($form, TRUE));
+// print_r('this is view page');
+exit;
+}
+}
+
+
+// function dpm($input, $name = NULL, $type = 'status') {
+//     \Drupal::service('devel.dumper')
+//       ->message($input, $name, $type);
+//     return $input;
+//   }
+
+//   DevelDumperManager::message()
+
+
+
+
+// function custom_form_views_post_render(&$view, &$output, &$cache)
+// {
+//     // $view = \Drupal\views\views::getView('test11');
+//     // // $view->setDisplay('page_1');
+//     // // $displayName = $view->getTitle();
+//     // print_r('hello');
+//     // exit;
+
+// // }
+
+// function hook_views_post_render($view, array &$output, CachePluginBase $cache) {
+
+//     // When using full pager, disable any time-based caching if there are fewer
+//     // than 10 results.
+//     if ($view->pager instanceof Drupal\views\Plugin\views\pager\Full && $cache instanceof Drupal\views\Plugin\views\cache\Time && count($view->result) < 10) {
+//       $cache->options['results_lifespan'] = 0;
+//       $cache->options['output_lifespan'] = 0;
+//     }
+//   }

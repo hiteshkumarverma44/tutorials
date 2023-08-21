@@ -1,0 +1,62 @@
+<?php
+function test_schema()
+{
+    $schema['testform'] = [
+        'fields' => [
+            'test_id' => [
+                'type' => 'serial',
+                'not null' => TRUE,
+            ],
+            'first_name' => [
+                'type' => 'varchar',
+                'not null' => TRUE,
+                'length' => 50,
+            ],
+            'last_name' => [
+                'type' => 'varchar',
+                'not null' => TRUE,
+                'length' => 50,
+            ],
+            'dob' => [
+                'type' => 'varchar',
+                'not null' => TRUE,
+                'length' => 50,
+            ],
+            'gender' => [
+                'type' => 'varchar',
+                'not null' => TRUE,
+                'length' => 10,
+            ],
+            'profile_image' => [
+                'type' => 'varchar',
+                'length' => '1024',
+                'not null' => FALSE,
+            ],
+        ],
+        'primary key' => ['test_id'],
+    ];
+
+
+    $schema['testconfi'] = [
+        'fields' => [
+            'test_confi_id' => [
+                'type' => 'serial',
+                'not null' => TRUE,
+            ],
+            'heading' => [
+                'type' => 'varchar',
+                'not null' => TRUE,
+                'length' => 50,
+            ],
+            'currentDate' => [
+                'type' => 'varchar',
+                'not null' => TRUE,
+                'length' => 50,
+            ],
+
+        ],
+        'primary key' => ['test_confi_id'],
+    ];
+
+    return $schema;
+}

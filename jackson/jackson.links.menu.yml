@@ -1,0 +1,6 @@
+jackson.settings_form:
+  title: jackson
+  description: Configure jackson.
+  parent: system.admin_config_system
+  route_name: jackson.settings_form
+  weight: 10

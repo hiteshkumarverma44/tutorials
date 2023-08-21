@@ -1,0 +1,5 @@
+name: Sandwich module
+type: module
+description: This is just for module essentials
+package: custom
+core_version_requirement: ^9 || ^10

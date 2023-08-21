@@ -1,0 +1,6 @@
+drushmodule.settings_form:
+  title: drushModule
+  description: Configure drushModule.
+  parent: system.admin_config_system
+  route_name: drushmodule.settings_form
+  weight: 10

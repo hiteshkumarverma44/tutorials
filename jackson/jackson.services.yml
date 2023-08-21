@@ -1,0 +1,6 @@
+services:
+  jackson.event_subscriber:
+    class: Drupal\jackson\EventSubscriber\JacksonSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }

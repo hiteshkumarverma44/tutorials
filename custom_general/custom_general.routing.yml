@@ -1,0 +1,7 @@
+welcome.page:
+  path: '/welcome'
+  defaults:
+    _controller: '\Drupal\custom_general\Controller\WelcomePage::welcomePage'
+    _title: 'Welcome'
+  requirements:
+    _permission: 'access content'

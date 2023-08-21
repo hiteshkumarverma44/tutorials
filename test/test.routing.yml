@@ -1,0 +1,32 @@
+test.testform:
+  path: '/testform'
+  defaults:
+    _title: 'This is Test form Routing'
+    _form: '\Drupal\test\Form\testForm'
+  requirements:
+    _permission: 'access content'
+
+test.showdata:
+  path: '/showdata'
+  defaults:
+    _controller: '\Drupal\test\Controller\Display::showdata'
+    _title: 'show form'
+  requirements:
+    _permission: 'access content'
+
+test.settings:
+  path: '/test_confi'
+  defaults:
+    _form: '\Drupal\test\Form\testConfi'
+    _title: 'Custom test Configurations'
+  requirements:
+    _permission: 'form permission'
+
+# test.showheading:
+#   path: '/showheading'
+#   defaults:
+#     _controller: '\Drupal\test\Controller\Display::showheading'
+#     _title: 'show heading'
+#   requirements:
+#     _permission: 'access content'
+

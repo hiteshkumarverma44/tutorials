@@ -1,0 +1,5 @@
+name: CUSTOM POSTAL CODE
+description: custom postal code table module
+core_version_requirement: ^8 || ^9 || ^10
+type: module
+package: Custom Modules

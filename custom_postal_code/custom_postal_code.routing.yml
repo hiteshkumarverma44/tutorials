@@ -1,0 +1,55 @@
+custom.custom_postal_code_add:
+  path: '/admin/postal/add'
+  defaults:
+    _form: '\Drupal\custom_postal_code\Form\custom_postal_code_add'
+    _title: 'Add Custom Postal'
+  requirements:
+    _permission: 'access content'
+
+custom.custom_postal_code_edit:
+  path: '/admin/postal/edit/{sr_no}'
+  defaults:
+    _form: '\Drupal\custom_postal_code\Form\custom_postal_code_edit'
+    _title: 'Edit Custom Postal'
+  requirements:
+    _permission: 'access content'
+
+custom.custom_postal_code_showdata:
+ path: '/admin/postal'
+ defaults:
+   _title: 'Custom Postal'
+   _controller: '\Drupal\custom_postal_code\Controller\Display::showdata'
+ requirements:
+   _permission: 'access content'
+
+custom.custom_postal_code_delete:
+ path: '/admin/postal/delete/{sr_no}'
+ defaults:
+   _title: 'Custom Postal delete'
+   _form: '\Drupal\custom_postal_code\Form\custom_postal_code_delete'
+ requirements:
+   _permission: 'access content'
+
+custom.custom_postal_code_search:
+ path: '/admin/postal/search'
+ defaults:
+   _title: 'Custom Postal Search'
+   _form: '\Drupal\custom_postal_code\Form\custom_postal_code_search'
+ requirements:
+   _permission: 'access content'
+
+custom.custom_postal_code_import:
+  path: '/admin/import'
+  defaults:
+    _form: '\Drupal\custom_postal_code\Form\custom_postal_code_import'
+    _title: 'CVS import'
+  requirements:
+    _permission: 'access content'
+
+custom.staticPostalDisplay:
+  path: '/admin/staticPostalDisplay'
+  defaults:
+    _controller: '\Drupal\custom_postal_code\Controller\Display::staticPostalDisplay'
+    _title: Static Postal Code
+  requirements:
+    _permission: 'access content'
