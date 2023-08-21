@@ -1,0 +1,68 @@
+https://www.drupal.org/docs/8/api/database-api/dynamic-queries/conditions
+https://www.drupal.org/docs/7/api/database-api/dynamic-queries/conditional-clauses
+
+
+https://www.w3resource.com/php-exercises/php-class-exercises.php
+
+
+https://evolvingweb.com/blog/custom-sorting-drupal-tutorial
+
+https://www.w3resource.com/php-exercises/php-class-exercises.php
+
+https://www.oreilly.com/library/view/programmers-guide-to/9781449343309/ch04.html
+
+https://www.drupal.org/docs/drupal-apis/entity-api/creating-a-custom-content-entity
+
+https://www.digitalnadeem.com/drupal/how-to-create-a-custom-filter-form-and-update-custom-table-data-in-drupal/
+
+
+https://www.drupal.org/docs/drupal-apis/ajax-api
+
+ajax api
+entity api
+pager in oops
+filter in oops
+form api
+drupal syntax
+
+https://www.drupal.org/docs/develop/drupal-apis
+
+https://www.drupal.org/docs/7/api/database-api/dynamic-queries/extenders
+
+https://alvinalexander.com/drupal/drupal-form-submit-button-handler-function/
+
+https://www.drupal.org/docs/drupal-apis/routing-system/introductory-drupal-routes-and-controllers-example
+
+
+
+
+https://ourcodeworld.com/articles/read/302/how-to-setup-a-virtual-host-locally-with-xampp-in-ubuntu
+https://www.drupal.org/forum/support/before-you-start/2022-11-12/drush-for-drupal-9
+https://www.hashbangcode.com/article/drupal-9-correct-way-redirect-page
+https://www.youtube.com/watch?v=PeaiWXy6ZsY&list=PLmIFYIK7Ay4rgERZfdCBQ7XEyufMOg4tl&index=2
+https://www.drupal.org/project/commerce
+https://metadrop.net/en/articles/drupal-8-commerce-2-create-order-programmatically
+https://dev.to/rahulk1011/custom-crud-api-in-drupal-9-1ia8
+https://api.drupal.org/api/drupal/core%21includes%21bootstrap.inc/function/drupal_static/8.2.x
+https://agileadam.com/2018/06/using-messenger-instead-of-drupal_set_message-in-drupal-8/
+https://www.drupalbook.org/drupal/9112-add-update-delete-entity-programmatically
+https://www.digitalnadeem.com/drupal/how-to-create-a-custom-form-with-ajax-addupdate-and-delete-operations-without-page-refresh-in-drupal-8-and-drupal-9/
+https://www.drupal.org/docs/creating-custom-modules/step-by-step-tutorial-hello-world/add-a-menu-link
+https://www.drupal.org/docs/creating-custom-modules/step-by-step-tutorial-hello-world/add-a-default-configuration
+https://www.drupal.org/docs/creating-custom-modules/step-by-step-tutorial-hello-world
+https://www.drupal.org/forum/support/module-development-and-code-questions/2015-09-09/solved-how-to-add-a-menu-link-to-a
+https://drupal.stackexchange.com/questions/144992/how-do-i-create-a-link
+https://www.drupal.org/docs/drupal-apis/form-api/confirmformbase-to-confirm-an-action
+https://www.drupal.org/docs/develop/creating-modules/adding-assets-css-js-to-a-drupal-module-via-librariesyml
+https://drupalize.me/tutorial/entity-api-overview?p=2607
+https://www.drupal.org/docs/drupal-apis/entity-api/fieldtypes-fieldwidgets-and-fieldformatters
+https://www.php.net/manual/en/functions.arguments.php
+https://www.drupal.org/docs/drupal-apis/services-and-dependency-injection/services-and-dependency-injection-in-drupal-8
+https://www.drupal.org/docs/drupal-apis/configuration-api/configuration-api-overview
+https://www.drupal.org/node/2192175
+https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Entity!ContentEntityInterface.php/interface/ContentEntityInterface/8.2.x
+https://www.digitalnadeem.com/drupal/how-to-create-a-custom-filter-form-and-update-custom-table-data-in-drupal/
+https://www.w3resource.com/php-exercises/php-class-exercises.php
+https://www.drupal.org/docs/7/api/database-api/dynamic-queries/conditional-clauses
+https://www.drupal.org/docs/8/api/database-api/dynamic-queries/conditions
+https://www.drupal.org/docs/7/api/database-api/dynamic-queries/extenders
